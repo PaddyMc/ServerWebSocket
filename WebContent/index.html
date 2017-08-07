@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>WebSocketClient</title>
+</head>
+<body>
+	<p>You shouldn't be here?</p>
+	<input type="button" name="btnsend" onclick="hope()" value="Send Hello Through Socket" />
+
+	<script>
+// 		var socket = new WebSocket('wss ://{ip}:{port}/ServerWebSocket/hello');
+		
+// 	    window.onload = function() {
+	 
+// 			console.log( "Created websocket" );
+// 			//socket= new WebSocket('ws://{ip}:{port}/ServerWebSocket/hello');
+// 			//socket.send("hello");
+	 
+// 		};
+// 	 	hope = function()
+// 	 	{
+// 	 		console.log("This is it");
+// 	 		//socket.send("hello");
+// 	 	};
+	 	
+// 	 	socket.onmessage = function(event){
+// 	 		var message = event.data;
+// 	 		console.log("Key: " + message);
+// 	 	};
+	 	
+// 	 	window.addEventListener('keydown', function(event) {
+// 	 		switch(event.key){
+// 	 		case "ArrowDown":
+// 	 			console.log("Down was pressed");
+// 	 			socket.send("Down");
+// 	 			break;
+// 	 		case "ArrowUp":
+// 	 			console.log("Up was pressed");
+// 	 			socket.send("Up");
+// 	 			break;
+// 	 		case "ArrowLeft":
+// 	 			console.log("Left was pressed");
+// 	 			socket.send("Left");
+// 	 			break;
+// 	 		case "ArrowRight":
+// 	 			console.log("Right was pressed");
+// 	 			socket.send("Right");
+// 	 			break;
+// 	 		default:
+// 	 			return;
+// 	 		} 		
+// 	 	});
+    </script>
+
+</body>
+</html>
